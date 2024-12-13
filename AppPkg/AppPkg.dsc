@@ -120,14 +120,11 @@
       gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x80400040
   }
 
-#### Conditional compilation of python368.inf by passing -D BUILD_PYTHON368
-#### through build command
-  !if $(BUILD_PYTHON368)
-    AppPkg/Applications/Python/Python-3.6.8/Python368.inf
-  !endif
+
+AppPkg/Applications/Python/Python-3.6.8/Python368.inf
 
 #### Un-comment the following line to build Lua.
-#  AppPkg/Applications/Lua/Lua.inf
+AppPkg/Applications/Lua/Lua.inf
 
 
 ##############################################################################
